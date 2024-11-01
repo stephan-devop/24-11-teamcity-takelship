@@ -27,7 +27,7 @@
 - Ein Generator von Docker Compose-Setups
 - Eine Laufzeitumgebung für Docker Compose-Setups
 
-Das takelship ist ein Framework zum unkomplizierten Deployment komplexer Systeme. Ziel ist es, mit einem Befehl ein vollständiges Setup (nahezu) beliebiger Software zu deployen.
+Das [takelship](https://github.com/takelwerk/takelship/) ist ein Framework zum unkomplizierten Deployment komplexer Systeme. Ziel ist es, mit einem Befehl ([ship](https://github.com/takelwerk/takelage-cli)) ein vollständiges Setup nahezu beliebiger Software zu deployen.
 
 <a id="probleme"></a>
 ## Welches Problem löst das takelship?
