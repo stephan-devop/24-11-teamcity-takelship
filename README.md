@@ -149,7 +149,7 @@ So lassen wir die Ports und Passwörter der Diensta nochmal anzeigen, die wir nu
 ship start
 ```
 
-Alternativ können die Services *mit den gleichen Daten* und *unter den gleichen Ports* auch auf dem Host gestartet werden. Dafür stoppen wir das takelship, um die Ports freizugeben:
+Wenn wir hier ein Repository anlegen, ist das auch nutzbar, wenn die Services *mit den gleichen Daten* und *unter den gleichen Ports* auch auf dem Host gestartet werden. Dafür stoppen wir das takelship, um die Ports freizugeben:
 
 ```bash
 ship stop
