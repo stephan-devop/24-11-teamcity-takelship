@@ -33,7 +33,7 @@ Das [takelship](https://github.com/takelwerk/takelship/) ist ein Framework zum u
 <a id="probleme"></a>
 ## Welches Problem löst das takelship?
 
-Ziel ist die Erstellung von TeamCity-Pipelines, die mit unterschiedlichen Parametrisierungen sowohl lokal als auch live laufen. Diese Pipelines sind selber Code und können dann mit der lokalen Parametrisierung in einer Pipeline getestet werden.
+Ziel ist die Erstellung von TeamCity-Pipelines, die mit unterschiedlichen Parametrisierungen sowohl lokal als auch online laufen. Diese Pipelines sind selber Code und können dann mit der lokalen Parametrisierung in einer Pipeline getestet werden.
 
 `ship start teamcity` erzeugt eine vollständige lokale Entwicklungsumgebung:
 
