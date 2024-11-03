@@ -176,7 +176,7 @@ Ansible, Jinja2, Python, Bash, Ruby
 
 ### Systemvoraussetzungen
 
-#### `takelship` Hypervisor:
+#### `takelship` Runtime Environment:
 
 - Docker Desktop Mac (arm64)
 - Docker Desktop Linux (amd64)
