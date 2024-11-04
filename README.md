@@ -189,7 +189,7 @@ Ansible, Jinja2, Python, Bash, Ruby
 <a id="takelship"></a>
 ## Wie ist das takelship aufgebaut?
 
-Das takelship ist ein Docker Container dessen Image auf `debian:stable-slim` basiert. Im takelship ist Podman als Hypervisor installiert.
+Das takelship ist ein Docker Container dessen Image auf `debian:stable-slim` basiert. Im takelship ist Podman als „Hypervisor“ installiert.
 
 Das takelship erzeugt Projektdateien in einem reingereichten Verzeichnis des Hosts. Anschließend führt es die Docker Compose-Dateien mit podman-compose im takelship aus.
 
@@ -197,7 +197,7 @@ Aus der Sicht des Hosts läuft nur ein Container, aber durch die Nested Virtuali
 
 Die Ports der Services werden durch `podman` auf den localhost des takelships gemappt. Die Ports des takelships werden durch `docker` auf die Ports des localhost des Hosts gemappt.
 
-Die `podman`-Portkonfiguration im takelship ist statisch, aber die die `docker`-Portkonfiguration auf dem Host wird durch `ship` dynamisch konfiguriert. Die `ship`.Konfiguration lässt sich über Konfigurationsdateien und/oder Umgebungsvariablen steuern. Siehe: `tau config`
+Die `podman`-Portkonfiguration im takelship ist statisch, aber die die `docker`-Portkonfiguration auf dem Host wird durch `ship` dynamisch konfiguriert. Die `ship`-Konfiguration lässt sich über Konfigurationsdateien und/oder Umgebungsvariablen steuern. Siehe: `tau config`
 
 Der Podman-Socket des takelships wird auf dem localhost des Hosts gemapped und ist via DOCKER_HOST ansprechbar. `ship podman` hingegen macht einen `docker exec`-Aufruf.
 
