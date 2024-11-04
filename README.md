@@ -133,7 +133,7 @@ Mittlerweile sollten die Services erreichbar sein. Wenn es bunt wird, ist der Bo
 ship logs -f
 ```
 
-So lassen wir die Ports und Passwörter der Diensta nochmal anzeigen, die wir nun ansurfen können:
+So lassen wir uns die Ports und Passwörter der Dienste nochmal anzeigen, die wir nun ansurfen können:
 
 ```bash
 ship start
