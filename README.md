@@ -193,7 +193,7 @@ Das takelship ist ein Docker Container dessen Image auf `debian:stable-slim` bas
 
 Das takelship erzeugt Projektdateien in einem reingereichten Verzeichnis des Hosts. Anschließend führt es die Docker Compose-Dateien mit podman-compose im takelship aus.
 
-Aus der Sicht des Hosts läuft nur ein Container, aber durch die Nested Virtualization laufen tatsächlich beliebig viele Container in diesem einen Host.
+Aus der Sicht des Hosts läuft nur ein Container, aber durch die Nested Virtualization laufen tatsächlich beliebig viele Container in diesem einen Container.
 
 Die Ports der Services werden durch `podman` auf den localhost des takelships gemappt. Die Ports des takelships werden durch `docker` auf die Ports des localhost des Hosts gemappt.
 
